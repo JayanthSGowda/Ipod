@@ -1,9 +1,12 @@
-import { Component } from 'react'
+import { Component } from 'react';
+import KeyPad from './Components/KeyPad';
+import Screen from './Components/Screen';
 export default class Ipod extends Component {
   render() {
     return (
       <div>
-        <h1>Ipod</h1>
+        <Screen/>
+        <KeyPad/>
       </div>
     );
   }

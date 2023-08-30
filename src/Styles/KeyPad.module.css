@@ -1,0 +1,24 @@
+.iKeyPad{
+    position: relative;
+
+    height: 200px;
+    width: 250px;
+    background-color: rgb(197, 203, 211);
+}
+.wheel{
+    position: absolute;
+    left: 25px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.centerKey{
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(197, 203, 211);
+    border-radius: 50%;
+}
