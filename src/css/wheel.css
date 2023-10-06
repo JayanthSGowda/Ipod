@@ -1,0 +1,16 @@
+.wheel-container{
+    position: relative;
+    width: 200px;
+    height: 200px;  
+    margin-top: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+.wheel{
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: white;   
+    border-radius: 50%;
+}
