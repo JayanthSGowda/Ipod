@@ -1,11 +1,15 @@
 import React from 'react';
 import Body from './Components/Body';
+
+
 class App extends React.Component {
   render() {
     return (
-      <div>
+
+    <div>
         <Body/>
-      </div>
+    
+    </div>
     );
   }
 }
