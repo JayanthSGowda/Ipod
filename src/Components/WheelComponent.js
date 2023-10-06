@@ -10,7 +10,7 @@ const Button = styled.div`
   color:  rgb(197, 203, 211);
 `;
 
-const WheelComponent = () => {
+const WheelComponent = (props) => {
     const wheelRef = useRef(null);
     const [isRotating, setIsRotating] = useState(false);
     const [initialAngle, setInitialAngle] = useState(0);
@@ -27,11 +27,17 @@ const WheelComponent = () => {
   
         // Use rotationDelta to update the rotation state or perform other actions
         let start = rotationDelta;
-        console.log(start);
+        // console.log(start);
         if (rotationDelta > 0) {
-            console.log('Next'); // Log "Next" for increasing rotation
+            if(props.active<3){
+              props.setActive(props.active+1);
+            }
+            // console.log('Next'); // Log "Next" for increasing rotation
           } else if (rotationDelta < 0) {
-            console.log('Previous'); // Log "Previous" for decreasing rotation
+            if(props.active>0){
+              props.setActive(props.active-1);
+            }
+            // console.log('Previous'); // Log "Previous" for decreasing rotation
           }
           setInitialAngle(currentAngle);
       }

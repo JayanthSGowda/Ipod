@@ -6,7 +6,7 @@ export default class KeyPad extends Component {
   render() {
     return (
       <div class={styles.iKeyPad}>
-        <WheelComponent wheelStyle={styles.wheel}/>
+        <WheelComponent active={this.props.active} setActive={this.props.setActive} wheel={this.props.wheel}  wheelStyle={styles.wheel}/>
       </div>
     );
   }
