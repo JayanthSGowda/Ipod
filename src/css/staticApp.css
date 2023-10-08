@@ -1,0 +1,21 @@
+.bg-image{
+    height: 210px;
+    width: 270px;
+}
+.bg-container{
+    height: 210px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg-container h2{
+    position: absolute;
+    
+}
+.icon-img{
+    height: 80px;
+    width: 105px;
+    position: absolute;
+    top: 50px;
+}
