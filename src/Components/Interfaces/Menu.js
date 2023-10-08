@@ -2,7 +2,7 @@ import React from "react";
 import "../../css/menu.css";
 export default class Menu extends React.Component {
   render() {
-    const {menuItems , heading} = this.props;
+    const {menuItems , heading ,active} = this.props;
     return (
         <div className="menu-container">
             <div className="heading">
@@ -11,8 +11,8 @@ export default class Menu extends React.Component {
            <div className="menu">
         <ul>
           {menuItems.map((item,index) => (
-            <li key={index} className={index === 1 ? "active":""}>
-              <h3>{item}</h3>
+            <li key={index} className={index === active ? "active":""}>
+              <p>{item}</p>
             </li>
           ))}
         </ul>

@@ -16,9 +16,9 @@
     height: 160px;
 }
 h2{
-    padding-left: 5px;
+    padding: 5px 10px;
 }
-h3{
+p{
     margin: 0px;
     padding: 0px;
 }
@@ -30,11 +30,11 @@ ul{
 }
 
 li{
-    padding: 7px 5px;
+    padding: 7px 10px;
 }
 
 .active{
-    padding-left: 5px;
+    padding-left: 10px;
     position: relative;
     background-color: rgb(55, 150, 220);
     color: white;
