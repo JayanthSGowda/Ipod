@@ -7,6 +7,7 @@ import Home from "../Apps/Home";
 import CoverFlow from "../Apps/CoverFlow";
 import Games from "../Apps/Games";
 import Settings from "../Apps/Settings";
+import Music from "../Apps/Music";
 import MusicPlayer from "../Apps/MusicPlayer";
 
 
@@ -24,7 +25,8 @@ function Display (props){
                 <Route path="/coverflow" element={<CoverFlow/>}/>
                 <Route path="/games" element={<Games/>}/>
                 <Route path="/settings" element={<Settings/>}/>
-                <Route path="/music" element={<MusicPlayer value={props.musicValue}/>}/>
+                <Route path="/music" element={<Music value={props.musicValue} navigate={navigateTo}/>}/>
+                <Route path="/music/player" element={<MusicPlayer/>}/>
             </Routes>
         </div>
         
@@ -33,20 +35,3 @@ function Display (props){
 
 }
 export default Display;
-// Uncaught 
-// checkForNestedUpdates @ react-dom.development.js:27292
-// scheduleUpdateOnFiber @ react-dom.development.js:25475
-// enqueueSetState @ react-dom.development.js:14067
-// Component.setState @ react.development.js:354
-// shouldComponentUpdate @ MusicPlayer.js:23
-// checkShouldComponentUpdate @ react-dom.development.js:14134
-// updateClassInstance @ react-dom.development.js:14698
-// updateClassComponent @ react-dom.development.js:19695
-// beginWork @ react-dom.development.js:21611
-// beginWork$1 @ react-dom.development.js:27426
-// performUnitOfWork @ react-dom.development.js:26557
-// workLoopSync @ react-dom.development.js:26466
-// renderRootSync @ react-dom.development.js:26434
-// performSyncWorkOnRoot @ react-dom.development.js:26085
-// flushSyncCallbacks @ react-dom.development.js:12042
-// (anonymous) @ react-dom.development.js:25651
