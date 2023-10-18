@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Ipod/static/css/main.1a286ed6.css",
-    "main.js": "/Ipod/static/js/main.c08bc451.js",
+    "main.css": "/Ipod/static/css/main.f556a298.css",
+    "main.js": "/Ipod/static/js/main.d274fca8.js",
     "static/js/845.1425d181.chunk.js": "/Ipod/static/js/845.1425d181.chunk.js",
     "static/media/Confetti  Ghost.mp3": "/Ipod/static/media/Confetti  Ghost.493a409a0d04290bb4ed.mp3",
     "index.html": "/Ipod/index.html",
-    "main.1a286ed6.css.map": "/Ipod/static/css/main.1a286ed6.css.map",
-    "main.c08bc451.js.map": "/Ipod/static/js/main.c08bc451.js.map",
+    "main.f556a298.css.map": "/Ipod/static/css/main.f556a298.css.map",
+    "main.d274fca8.js.map": "/Ipod/static/js/main.d274fca8.js.map",
     "845.1425d181.chunk.js.map": "/Ipod/static/js/845.1425d181.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a286ed6.css",
-    "static/js/main.c08bc451.js"
+    "static/css/main.f556a298.css",
+    "static/js/main.d274fca8.js"
   ]
 }
